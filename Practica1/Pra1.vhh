@@ -1,0 +1,14 @@
+ENTITY pra1 IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	c : inout std_logic  ; 
+	d : inout std_logic  ; 
+	e : inout std_logic  ; 
+	f : inout std_logic  ; 
+	g : inout std_logic  ; 
+	h : inout std_logic  ; 
+	i : inout std_logic  ; 
+	j : inout std_logic 
+    ) ;
+END pra1 ;
