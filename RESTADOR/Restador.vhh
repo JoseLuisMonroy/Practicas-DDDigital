@@ -1,0 +1,9 @@
+ENTITY restador IS
+    PORT (
+	ci : in std_logic  ; 
+	a : in std_logic_vector (3 downto 0) ; 
+	b : in std_logic_vector (3 downto 0) ; 
+	cf : inout std_logic  ; 
+	s : in std_logic_vector (3 downto 0)
+    ) ;
+END restador ;
