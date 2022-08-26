@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\DSD\vhd\Practica1.vhd
+ Compile Entity "pr1"
+ Compile Architecture "DSMB" of Entity "pr1"
+ Top-Level unit detected
+ Entity  =>   pr1
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

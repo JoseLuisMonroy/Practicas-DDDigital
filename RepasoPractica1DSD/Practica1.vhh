@@ -1,0 +1,6 @@
+ENTITY pr1 IS
+    PORT (
+	a : in std_logic_vector (3 downto 0) ; 
+	f : inout std_logic 
+    ) ;
+END pr1 ;

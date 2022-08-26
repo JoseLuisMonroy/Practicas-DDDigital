@@ -1,0 +1,6 @@
+MESSAGE "File: E:\DSD\vhd\Practica1.vhd" 
+MESSAGE "Compile Entity "pr1"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "pr1"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   pr1" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 
