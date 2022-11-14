@@ -1,0 +1,55 @@
+Design: 10:42 a.m., Viernes, 11 de Noviembre de 2022
+Design: Opening design "E:\Monroy\PISO\vhd\PISO\PISO.adf"
+Compilation with file reorder...
+File: E:\Monroy\PISO\vhd\PISO.vhd
+Compile Entity "series"
+Compile Architecture "DSMB" of Entity "series"
+Top-Level unit detected
+Entity  =>   series
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+10:43 a.m., Viernes, 11 de Noviembre de 2022
+Simulation has been initialized
+Selected Top-Level: series (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 700 ns
+KERNEL: stopped at time: 800 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+10:47 a.m., Viernes, 11 de Noviembre de 2022
+Simulation has been initialized
+Selected Top-Level: series (DSMB)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+10:49 a.m., Viernes, 11 de Noviembre de 2022
+Simulation has been initialized
+Selected Top-Level: series (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+Simulation has been stopped

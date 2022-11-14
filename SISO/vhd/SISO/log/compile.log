@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\Monroy\SISO\vhd\SISO.vhd
+ Compile Entity "series"
+ Compile Architecture "DSMB" of Entity "series"
+ Top-Level unit detected
+ Entity  =>   series
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

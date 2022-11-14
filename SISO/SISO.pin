@@ -1,0 +1,10 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: SISO.pin
+
+This file was created on 11/11/2022 at 10:01:56 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+d in <> Enabled Normal 2 <> [Auto] 
+clr in <> Enabled Normal 3 <> [Auto] 
+q out <> Enabled Normal 15 <> [Auto] 

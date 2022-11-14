@@ -1,0 +1,15 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: PISO.pin
+
+This file was created on 11/11/2022 at 10:15:14 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [User] 
+clr in <> Enabled Normal 2 <> [User] 
+shiftload in <> Enabled Normal 3 <> [User] 
+d(3) in <> Enabled Normal 4 <> [User] 
+d(2) in <> Enabled Normal 5 <> [User] 
+d(1) in <> Enabled Normal 6 <> [User] 
+d(0) in <> Enabled Normal 7 <> [User] 
+s in <> Enabled Normal 8 <> [Auto] 
+q out <> Enabled Normal 22 <> [Auto] 
