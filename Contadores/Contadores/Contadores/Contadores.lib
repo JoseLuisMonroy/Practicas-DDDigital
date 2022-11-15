@@ -1,1 +1,24 @@
+timestamp=1668474315694
 
+[~A]
+ModifyID=4
+Version=74
+
+[~MFT]
+0=8|0Contadores.mgf|2634|1350
+1=2|1Contadores.mgf|2739|2739
+3=2|3Contadores.mgf|0|0
+
+[contador]
+A/a_contador=A/A_CONTADOR 21|../src/Contadores.vhd|14|1*2739
+BinW64/a_contador=3*0
+I=0*566
+I/a_contador=I/A_CONTADOR 0*2634
+M=11|2|vef|1668474034439|../src/Contadores.vhd|0*203*0x187155d38c53169ae54ff38602fbd8d2c533e282|0*483*0x23b75c12e3e89f2ef000564498faa8c2
+M/a_contador=M/A_CONTADOR 21|2|vef|1668474315676|../src/Contadores.vhd|0*2118*0x2c20f241057708facf410bf07716dc0dd3d6ccaf|0*2537*0x20116f55b147878295aeff36dce7fc50
+R=../src/Contadores.vhd|4
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|4f5ba1cc8e6e05fe80db1d025f70d822536c9008ac87b7c2cbb596311114c0c86e63838d8c77ad000c6a28ea143019df
+Version/a_contador=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|08e51dab9884fa5e1c9c6faf061dccbea78524f693e98273025fe203c0b8b3023eed1a1148c1eb9023d28a78bc8eebc1
+
+[~U]
+contador=CONTADOR 11|0*0|

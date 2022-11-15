@@ -4,7 +4,7 @@ VCS=0
 version=4
 Current Config=compile
 [Configurations]
-compile=Contadores
+compile=contadores
 [Library]
 Contadores=.\Contadores\Contadores.lib
 [$LibMap$]
@@ -18,8 +18,12 @@ FLOWTOOLS=NONE
 FAMILY=
 [Files]
 /Contadores.vhd=-1
+/Anillo.asdb=-1
+/Anillo.awc=-1
 [Files.Data]
 .\src\Contadores.vhd=VHDL Source Code
+.\src\Anillo.asdb=Accelerated Waveform File
+.\src\Anillo.awc=Accelerated Waveform Configuration
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
