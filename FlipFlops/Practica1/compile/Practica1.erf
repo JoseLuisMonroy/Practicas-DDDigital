@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: d:/My_Designs/Practica1/Practica1/src/practica1.vhd" 
+MESSAGE "Compile Entity "PRA1"" 
+MESSAGE "Compile Architecture "A_PRA1" of Entity "PRA1"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

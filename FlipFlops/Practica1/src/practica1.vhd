@@ -1,0 +1,53 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+	
+ENTITY PRA1 IS 
+	PORT(
+		A,B, CLK, CLR, PR: IN STD_LOGIC;
+		SEL: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+		Q, QN: INOUT STD_LOGIC
+		);
+END ENTITY;
+
+ARCHITECTURE A_PRA1 OF PRA1 IS
+SIGNAL QAUX, QNAUX: STD_LOGIC;
+BEGIN
+Q <= '1' WHEN PR = '1' AND CLR='0' ELSE
+	'0' WHEN PR = '0' AND CLR='1' ELSE
+	QAUX WHEN PR ='0' AND CLR ='0' ELSE
+	'-';
+QN<= '0' WHEN PR = '1' AND CLR='0' ELSE
+	'1' WHEN PR = '0' AND CLR='1' ELSE
+	QNAUX WHEN PR ='0' AND CLR ='0' ELSE
+	'-';
+PROCESS(SEL, CLK, A, B, Q, QN) BEGIN
+	IF(CLK'EVENT AND CLK = '1')THEN
+		CASE SEL IS 
+			WHEN "00" => 
+				QAUX <= A;
+				QNAUX <= NOT A;
+		 	WHEN "01" =>
+				IF(A='1' AND B='1') THEN 
+					QAUX <= '-';
+					QNAUX <= '-';
+				ELSE
+					QAUX <= A OR ((NOT B) AND Q);
+					QNAUX <= NOT(A OR ((NOT B) AND Q));
+				END IF;
+			WHEN "10" => 
+				IF(A='1' AND B='1') THEN 
+					QAUX <= NOT Q;
+					QNAUX <= Q;
+				ELSE
+					QAUX <= A OR ((NOT B) AND Q);
+					QNAUX <= NOT(A OR ((NOT B) AND Q));
+				END IF;
+			WHEN OTHERS => 
+				IF (A = '1') THEN 
+					QAUX <= NOT Q;
+					QNAUX <= Q;
+				END IF;
+		END CASE;
+	END IF;
+END PROCESS;
+END A_PRA1;

@@ -1,0 +1,24 @@
+timestamp=1667053919169
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=3|0Practica1.mgf|1566|0
+1=1|1Practica1.mgf|0|0
+3=1|3Practica1.mgf|0|0
+
+[pra1]
+A/a_pra1=A/A_PRA1 21|../src/practica1.vhd|12|1*0
+BinW64/a_pra1=3*0
+I=0*538
+I/a_pra1=I/A_PRA1 0*1566
+M=11|2|vef|1667053814341|../src/practica1.vhd|0*205*0xdec68767f95455d367ead0e46d7a20025b28180d|0*460*0x23b75c12e3e89f2ef000564498faa8c2
+M/a_pra1=M/A_PRA1 21|2|vef|1667053919149|../src/practica1.vhd|0*736*0xed4d40495d8544709f8666cb80317a5476cd3251|0*1478*0x20116f55b147878295aeff36dce7fc50
+R=../src/practica1.vhd|4
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|34542ce82ec819c2fdabf100e229fb2401f363315049b4d124b6d967ff394608
+Version/a_pra1=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|ab0651a2567dab61d62248e689e8b4c902c2d62a7fcc256b2dc2482d6f14013f
+
+[~U]
+pra1=PRA1 11|0*0|
