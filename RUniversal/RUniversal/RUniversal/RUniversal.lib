@@ -1,0 +1,24 @@
+timestamp=1668467041471
+
+[~A]
+ModifyID=3
+Version=74
+
+[~MFT]
+0=8|0RUniversal.mgf|2562|1287
+1=2|1RUniversal.mgf|1080|1080
+3=2|3RUniversal.mgf|0|0
+
+[series]
+A/a_series=A/A_SERIES 21|../src/RUniversal.vhd|15|1*1080
+BinW64/a_series=3*0
+I=0*1209
+I/a_series=I/A_SERIES 0*2562
+M=11|2|vef|1668463357052|../src/RUniversal.vhd|0*814*0x7dae434a8b0fa4a5806e0e102b178dd09a4fed08|0*1128*0x23b75c12e3e89f2ef000564498faa8c2
+M/a_series=M/A_SERIES 21|2|vef|1668467041459|../src/RUniversal.vhd|0*2090*0xb026a498c11cf2b345199b0e37367d8df4c69cd2|0*2469*0x20116f55b147878295aeff36dce7fc50
+R=../src/RUniversal.vhd|4
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|183bc552fb4ad353b9cc9a4b9fd3b2ac613e2f3727ba7bb57c888470260f38e5
+Version/a_series=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|7cbe8cf10b68ca9023c5925ae063ff54257a08b95c9a80cfdbb2c82194e4e6f03d5a67bc41bf091a8a2b0a65fba8b79a
+
+[~U]
+series=SERIES 11|0*606|

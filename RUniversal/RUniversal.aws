@@ -1,0 +1,12 @@
+[Version]
+Version=13.0
+[Designs]
+runiversal=.\RUniversal\RUniversal.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+runiversal=1

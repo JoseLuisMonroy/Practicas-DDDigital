@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy activeStimuliSetName="StimuliSet2">
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="0" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/CLR"/>
+						</signals>
+					</stimulus>
+					<stimulus name="CLK" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="100ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="1" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/SD"/>
+							<signal path="/SERIES/SI"/>
+						</signals>
+					</stimulus>
+					<stimulus name="11" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="11"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="0101" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0101"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/D"/>
+						</signals>
+					</stimulus>
+					<stimulus name="00" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="00"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="01" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="01"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="10" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/SEL"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="StimuliSet2">
+					<stimulus name="0101" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0101"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/D"/>
+						</signals>
+					</stimulus>
+					<stimulus name="11" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="11"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="0" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/SD"/>
+							<signal path="/SERIES/CLR"/>
+						</signals>
+					</stimulus>
+					<stimulus name="1" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/SI"/>
+						</signals>
+					</stimulus>
+					<stimulus name="clk" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="100ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/CLK"/>
+						</signals>
+					</stimulus>
+					<stimulus name="01" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="01"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+					</stimulus>
+					<stimulus name="10" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="10"/>
+							<radix value="default"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/SERIES/SEL"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

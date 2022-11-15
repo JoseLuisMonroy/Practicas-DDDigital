@@ -1,0 +1,30 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=RUniversal
+[Library]
+RUniversal=.\RUniversal\RUniversal.lib
+[$LibMap$]
+RUniversal=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/RUniversal.vhd=-1
+/p2.asdb=-1
+/p2.awc=-1
+[Files.Data]
+.\src\RUniversal.vhd=VHDL Source Code
+.\src\p2.asdb=Accelerated Waveform File
+.\src\p2.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=series|A_SERIES|0
+ShowHide=ShowTopLevel
+Selected=

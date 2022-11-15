@@ -1,0 +1,1 @@
+-w -erf D:/My_Designs/RUniversal/RUniversal/compile/RUniversal.erf -d D:/My_Designs/RUniversal/RUniversal/compile -s D:/My_Designs/RUniversal/library.cfg -j D:/My_Designs/RUniversal/RUniversal/projlib.cfg -work RUniversal -O3 -e 100 -work RUniversal -2002 D:/My_Designs/RUniversal/RUniversal/src/RUniversal.vhd 
