@@ -14,10 +14,11 @@ ARCHITECTURE A_CONTADOR OF CONTADOR IS
 BEGIN 
 	PROCESS(CLK, CLR) BEGIN
 		IF (CLR ='1') THEN
-			Q <= "000000001";
+			Q <= "00000001";
 		ELSIF (CLK'EVENT AND CLK = '1') THEN 
 			IF (SEL = '0') THEN 
-				
+				Q(7 DOWNTO 1) <= Q(6 DOWNTO 0);
+				Q(0) <= NOT (Q(7));
 			ELSE
 				Q(7 DOWNTO 1) <= NOT(Q(6 DOWNTO 0));
 				Q(0) <= NOT (Q(7));

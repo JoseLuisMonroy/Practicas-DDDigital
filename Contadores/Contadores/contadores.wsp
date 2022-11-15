@@ -1,7 +1,7 @@
 [COMPILESTATUS|.\src\Contadores.vhd]
-FileTimeLow=2004758190
-FileTimeHigh=30996800
-Status=Modified
+FileTimeLow=4000541179
+FileTimeHigh=30996801
+Status=Compiled
 [General]
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\Contadores\Contadores.adf|]

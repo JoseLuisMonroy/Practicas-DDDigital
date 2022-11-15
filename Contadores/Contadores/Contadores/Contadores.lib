@@ -1,24 +1,24 @@
-timestamp=1668550694430
+timestamp=1668551459498
 
 [~A]
-ModifyID=6
+ModifyID=7
 Version=74
 
 [~MFT]
-0=7|0Contadores.mgf|3821|2634
-1=2|1Contadores.mgf|3652|3652
-3=1|3Contadores.mgf|0|0
+0=8|0Contadores.mgf|4536|3304
+1=2|1Contadores.mgf|4529|4529
+3=2|3Contadores.mgf|0|0
 
 [contador]
-A/a_contador=A/A_CONTADOR 21|../src/Contadores.vhd|13|1*3652
+A/a_contador=A/A_CONTADOR 21|../src/Contadores.vhd|13|1*4529
 BinW64/a_contador=3*0
 I=0*3162
-I/a_contador=I/A_CONTADOR 0*3821
+I/a_contador=I/A_CONTADOR 0*4536
 M=11|2|vef|1668550674740|../src/Contadores.vhd|0*2833*0xc41160c3e692140960ddc63f96f66b086d5f4025|0*3079*0x23b75c12e3e89f2ef000564498faa8c2
-M/a_contador=M/A_CONTADOR 21|2|vef|1668550694352|../src/Contadores.vhd|0*3364*0x7f28741ccfcdde64b4ecbe98cb0055c0ac1f34cc|0*3724*0x20116f55b147878295aeff36dce7fc50
+M/a_contador=M/A_CONTADOR 21|2|vef|1668551459485|../src/Contadores.vhd|0*4034*0xf125a00d84af37e7c059230d672ddb764854d71d|0*4439*0x20116f55b147878295aeff36dce7fc50
 R=../src/Contadores.vhd|4
 Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|4f5ba1cc8e6e05fe80db1d025f70d822536c9008ac87b7c2cbb596311114c0c8ee85c5aa44092cf9a34f7599983873e9
-Version/a_contador=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|08e51dab9884fa5e1c9c6faf061dccbea78524f693e98273025fe203c0b8b302d453c836a2b1a164932243425a6dffbe
+Version/a_contador=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|08e51dab9884fa5e1c9c6faf061dccbea78524f693e98273025fe203c0b8b302bbce518aeb3f6a87dcb2eebe3e0cfc88
 
 [~U]
 contador=CONTADOR 11|0*2634|
