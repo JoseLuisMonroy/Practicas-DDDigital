@@ -1,1 +1,6 @@
 i<>.\src\Contadores.vhd
+i<>.\CONTADOR.bde
+i<>.\src\Transactor\contador_args.h
+i<>.\src\Transactor\contador_if.h
+i<>.\src\Transactor\contador.h
+i<>.\src\Transactor\contador.cpp

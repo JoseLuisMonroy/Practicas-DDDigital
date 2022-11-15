@@ -85,7 +85,7 @@ I 000051 55 862           1668474131768 A_CONTADOR
 	)
 	(_model . A_CONTADOR 1 -1)
 )
-V 000051 55 862           1668474315677 A_CONTADOR
+I 000051 55 862           1668474315677 A_CONTADOR
 (_unit VHDL(contador 0 4(a_contador 0 14))
 	(_version vef)
 	(_time 1668474315678 2022.11.14 19:05:15)
@@ -111,6 +111,33 @@ V 000051 55 862           1668474315677 A_CONTADOR
 	(_static
 		(131587)
 		(197378)
+	)
+	(_model . A_CONTADOR 1 -1)
+)
+V 000051 55 826           1668550694372 A_CONTADOR
+(_unit VHDL(contador 0 4(a_contador 0 13))
+	(_version vef)
+	(_time 1668550694373 2022.11.15 16:18:14)
+	(_source(\../src/Contadores.vhd\))
+	(_parameters tan)
+	(_code 9d9e9a929fca9c8a98c88cc7c89bcb9a9f9b9e9bcb)
+	(_ent
+		(_time 1668550674740)
+	)
+	(_object
+		(_port(_int CLK -1 0 6(_ent(_in)(_event))))
+		(_port(_int CLR -1 0 6(_ent(_in)(_event))))
+		(_port(_int SEL -1 0 7(_ent(_in))))
+		(_type(_int ~STD_LOGIC_VECTOR{7~downto~0}~12 0 8(_array -1((_dto i 7 i 0)))))
+		(_port(_int Q 0 0 8(_ent(_inout))))
+		(_prcs
+			(line__15(_arch 0 0 15(_prcs(_trgt(3(0))(3(d_7_1))(3))(_sens(0)(1)(2)(3(7))(3(d_6_0)))(_dssslsensitivity 2))))
+		)
+		(_type(_ext ieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard)))
+	(_static
+		(33686019 33686018)
 	)
 	(_model . A_CONTADOR 1 -1)
 )

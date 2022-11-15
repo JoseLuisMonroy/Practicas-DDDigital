@@ -1,0 +1,325 @@
+SCHM0106
+
+HEADER
+{
+ FREEID 41
+ VARIABLES
+ {
+  #ARCHITECTURE="A_CONTADOR"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #DEFAULT_RANGE0="<range<index=\"0\"><name=\"q\"><left=\"2\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE1="<range<index=\"0\"><name=\"qn\"><left=\"2\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #ENTITY="CONTADOR"
+  #LANGUAGE="VHDL"
+  AUTHOR="mnry7999@gmail.com"
+  COMPANY="national polytechnic Institute"
+  CREATIONDATE="14/11/2022"
+  SOURCE="..\\src\\Contadores.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"use ieee.std_logic_1164.all;"
+   RECT (220,260,620,439)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  PROCESS  2, 0, 0
+  {
+   LABEL "process_16"
+   TEXT 
+"process (CLK,CLR)\n"+
+"                       begin\n"+
+"                         if (CLR = '1') then\n"+
+"                            Q <= \"100\";\n"+
+"                            QN <= \"011\";\n"+
+"                         elsif (CLK'EVENT and CLK = '1') then\n"+
+"                            if (SEL = '0') then\n"+
+"                               Q <= Q;\n"+
+"                               QN <= QN;\n"+
+"                            else \n"+
+"                               Q(2) <= not (Q(1));\n"+
+"                               Q(2) <= Q(1);\n"+
+"                               Q(1) <= not (Q(0));\n"+
+"                               Q(1) <= Q(0);\n"+
+"                               Q(0) <= not (Q(2));\n"+
+"                               Q(0) <= Q(2);\n"+
+"                            end if;\n"+
+"                         end if;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (960,240,1361,640)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   CORNER 10
+   VTX (  19, 21, 24, 30, 36 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+   LIST (  19, 21 )
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="CLK"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (780,260)
+   VERTEXES ( (2,18) )
+  }
+  INSTANCE  4, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="CLR"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (780,300)
+   VERTEXES ( (2,22) )
+  }
+  INSTANCE  5, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="SEL"
+    #SYMBOL="Input"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (780,420)
+   VERTEXES ( (2,25) )
+  }
+  INSTANCE  6, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusBidirectional"
+    #LIBRARY="#terminals"
+    #REFERENCE="Q(2:0)"
+    #SYMBOL="BusBidirectional"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   COORD (960,660)
+   VERTEXES ( (2,33) )
+  }
+  INSTANCE  7, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusBidirectional"
+    #LIBRARY="#terminals"
+    #REFERENCE="QN(2:0)"
+    #SYMBOL="BusBidirectional"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   COORD (960,700)
+   VERTEXES ( (2,27) )
+  }
+  TEXT  8, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (729,260,729,260)
+   ALIGN 6
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (729,300,729,300)
+   ALIGN 6
+   PARENT 4
+  }
+  TEXT  10, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (729,420,729,420)
+   ALIGN 6
+   PARENT 5
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1021,660,1021,660)
+   ALIGN 4
+   PARENT 6
+  }
+  TEXT  12, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1021,700,1021,700)
+   ALIGN 4
+   PARENT 7
+  }
+  NET WIRE  13, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="CLK"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  14, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="CLR"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET BUS  15, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="Q(2:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  16, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="QN(2:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET WIRE  17, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="SEL"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  VTX  18, 0, 0
+  {
+   COORD (780,260)
+  }
+  VTX  19, 0, 0
+  {
+   COORD (960,260)
+  }
+  WIRE  20, 0, 0
+  {
+   NET 13
+   VTX 18, 19
+  }
+  VTX  21, 0, 0
+  {
+   COORD (960,300)
+  }
+  VTX  22, 0, 0
+  {
+   COORD (780,300)
+  }
+  WIRE  23, 0, 0
+  {
+   NET 14
+   VTX 21, 22
+  }
+  VTX  24, 0, 0
+  {
+   COORD (960,420)
+  }
+  VTX  25, 0, 0
+  {
+   COORD (780,420)
+  }
+  WIRE  26, 0, 0
+  {
+   NET 17
+   VTX 24, 25
+  }
+  VTX  27, 0, 0
+  {
+   COORD (960,700)
+  }
+  VTX  28, 0, 0
+  {
+   COORD (920,700)
+  }
+  BUS  29, 0, 0
+  {
+   NET 16
+   VTX 27, 28
+  }
+  VTX  30, 0, 0
+  {
+   COORD (960,380)
+  }
+  VTX  31, 0, 0
+  {
+   COORD (920,380)
+  }
+  BUS  32, 0, 0
+  {
+   NET 16
+   VTX 30, 31
+  }
+  VTX  33, 0, 0
+  {
+   COORD (960,660)
+  }
+  VTX  34, 0, 0
+  {
+   COORD (940,660)
+  }
+  BUS  35, 0, 0
+  {
+   NET 15
+   VTX 33, 34
+  }
+  VTX  36, 0, 0
+  {
+   COORD (960,340)
+  }
+  VTX  37, 0, 0
+  {
+   COORD (940,340)
+  }
+  BUS  38, 0, 0
+  {
+   NET 15
+   VTX 36, 37
+  }
+  BUS  39, 0, 0
+  {
+   NET 15
+   VTX 37, 34
+  }
+  BUS  40, 0, 0
+  {
+   NET 16
+   VTX 31, 28
+  }
+ }
+ 
+}
+
