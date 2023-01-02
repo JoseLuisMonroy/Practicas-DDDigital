@@ -1,5 +1,5 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: D:/My_Designs/RUniversal/RUniversal/src/RUniversal.vhd" 
+MESSAGE "File: D:/mnry7/Documents/Practicas-DDDigital/RUniversal/RUniversal/src/RUniversal.vhd" 
 MESSAGE "Compile Entity "SERIES"" 
 MESSAGE "Compile Architecture "A_SERIES" of Entity "SERIES"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

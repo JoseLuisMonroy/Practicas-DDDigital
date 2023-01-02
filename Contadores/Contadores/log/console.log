@@ -1,0 +1,10 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'D:/mnry7/Documents/Practicas-DDDigital/Contadores/Contadores/src/SimulacionContadores.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Contadores/Contadores/src/SimulacionContadores.asdb'.
+open -vhdl {D:\mnry7\Documents\MonroyTmp\Moore\Moore.vhd}
+asim -O5 +access +r +m+CONTADOR CONTADOR A_CONTADOR
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 

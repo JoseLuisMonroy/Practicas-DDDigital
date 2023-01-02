@@ -1,4 +1,4 @@
-Active-HDL 13.0.376.8320 2022-11-15 16:31:09
+Active-HDL 13.0.376.8320 2022-12-08 20:00:58
 
 Elaboration top modules:
 Architecture                  A_CONTADOR(CONTADOR)
@@ -25,9 +25,3 @@ contadores              | None
 ieee                    | Standard IEEE packages library
 std                     | Standard VHDL library
 ----------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+CONTADOR CONTADOR A_CONTADOR
-
-
-The performance of simulation is reduced. Version Student Edition

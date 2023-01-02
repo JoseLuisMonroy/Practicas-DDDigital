@@ -1,3 +1,13 @@
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# Waveform file 'D:/My_Designs/RUniversal/RUniversal/src/p2.awc' connected to 'D:/My_Designs/RUniversal/RUniversal/src/p2.asdb'.
+acom -O3 -e 100 -work RUniversal -2002  $dsn/src/RUniversal.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/RUniversal/RUniversal/src/RUniversal.vhd
+# Compile Entity "SERIES"
+# Compile Architecture "A_SERIES" of Entity "SERIES"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: You do not have valid licenses to VHPI, PLI and DPI-C wizards. Contact Aldec for ordering information sales@aldec.com
+# Error: You do not have valid licenses to VHPI, PLI and DPI-C wizards. Contact Aldec for ordering information sales@aldec.com
+# CODE2GRAPHICS: Checking success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# CODE2GRAPHICS: Diagram file(s) generation completed in 0.2 seconds.
+# CODE2GRAPHICS: One unit converted to a Block Diagram.
+# CODE2GRAPHICS: Double click on this line to view the generated log file.
+# Waveform file 'D:/mnry7/Documents/Practicas-DDDigital/RUniversal/RUniversal/src/p2.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/RUniversal/RUniversal/src/p2.asdb'.

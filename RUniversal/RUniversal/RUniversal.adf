@@ -20,11 +20,13 @@ FAMILY=
 /RUniversal.vhd=-1
 /p2.asdb=-1
 /p2.awc=-1
+/SERIES.bde=-1
 [Files.Data]
 .\src\RUniversal.vhd=VHDL Source Code
 .\src\p2.asdb=Accelerated Waveform File
 .\src\p2.awc=Accelerated Waveform Configuration
+.\src\SERIES.bde=Block Diagram
 [HierarchyViewer]
-HierarchyInformation=series|A_SERIES|0
+HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
