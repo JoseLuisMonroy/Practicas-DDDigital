@@ -24,11 +24,15 @@ FAMILY=Xilinx13x SPARTAN6
 /DivisorFrec.vhd=-1
 /untitled.asdb=-1
 /untitled.awc=-1
+/FF.asdb=-1
+/FF.awc=-1
 [Files.Data]
 .\src\Detector.vhd=VHDL Source Code
 .\src\DivisorFrec.vhd=VHDL Source Code
 .\src\untitled.asdb=Accelerated Waveform File
 .\src\untitled.awc=Accelerated Waveform Configuration
+.\src\FF.asdb=Accelerated Waveform File
+.\src\FF.awc=Accelerated Waveform Configuration
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
