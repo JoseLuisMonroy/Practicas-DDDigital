@@ -34,6 +34,6 @@ FAMILY=Xilinx13x SPARTAN6
 .\src\FF.asdb=Accelerated Waveform File
 .\src\FF.awc=Accelerated Waveform Configuration
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=detector|COMPORTAMENTAL|0
 ShowHide=ShowTopLevel
 Selected=

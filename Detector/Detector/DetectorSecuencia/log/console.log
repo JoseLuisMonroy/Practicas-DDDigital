@@ -126,4 +126,598 @@ run 100 ns
 # KERNEL: stopped at time: 500 ns
 run 100 ns
 # KERNEL: stopped at time: 600 ns
-r
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+# Waveform file 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb'.
+# Adding file D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\untitled.asdb ... Done
+# Adding file D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\untitled.awc ... Done
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0078: Detector.vhd : (42, 8): Unknown identifier "SHIFTLOAD".
+# Error: COMP96_0133: Detector.vhd : (42, 8): Cannot find object declaration.
+# Error: COMP96_0077: Detector.vhd : (42, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: Detector.vhd : (45, 5): Unknown identifier "QAUX".
+# Error: COMP96_0078: Detector.vhd : (45, 25): Unknown identifier "QAUX".
+# Error: COMP96_0133: Detector.vhd : (45, 5): Cannot find object declaration.
+# Error: COMP96_0078: Detector.vhd : (46, 5): Unknown identifier "QAUX".
+# Error: COMP96_0133: Detector.vhd : (46, 5): Cannot find object declaration.
+# Error: COMP96_0078: Detector.vhd : (50, 15): Unknown identifier "QAUX".
+# Error: COMP96_0133: Detector.vhd : (50, 15): Cannot find object declaration.
+# Error: COMP96_0289: Detector.vhd : (50, 15): Prefix of index must be an array.
+# Error: COMP96_0077: Detector.vhd : (50, 15): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0071: Detector.vhd : (55, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (55, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (57, 19): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (57, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (61, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (61, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (63, 19): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (63, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (67, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (67, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (69, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (69, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (73, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (73, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (75, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (75, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (79, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (79, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (81, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (81, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (85, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (85, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (87, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (87, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (91, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (91, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (93, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (93, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (100, 49): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (100, 26): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (101, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (101, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (102, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (102, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (103, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (103, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (104, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (104, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (105, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (105, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (106, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (106, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (107, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (107, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (108, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (108, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (109, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (109, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (110, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (110, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (111, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (111, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (112, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (112, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (113, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (113, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 68 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ULM: Warning: ULM_0021 Architecture "comportamental" of entity "detectorsecuencia.detector" is not up-to-date. Please recompile file "D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia/src/Detector.vhd".
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0071: Detector.vhd : (55, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (55, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (57, 19): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (57, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (61, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (61, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (63, 19): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (63, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (67, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (67, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (69, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (69, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (73, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (73, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (75, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (75, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (79, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (79, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (81, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (81, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (85, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (85, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (87, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (87, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (91, 21): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (91, 11): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (93, 18): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (93, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (100, 49): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (100, 26): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (101, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (101, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (102, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (102, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (103, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (103, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (104, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (104, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (105, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (105, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (106, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (106, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (107, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (107, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (108, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (108, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (109, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (109, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (110, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (110, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (111, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (111, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (112, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (112, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0071: Detector.vhd : (113, 40): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: Detector.vhd : (113, 17): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 56 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ULM: Warning: ULM_0021 Architecture "comportamental" of entity "detectorsecuencia.detector" is not up-to-date. Please recompile file "D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia/src/Detector.vhd".
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  11:34 a. m., lunes, 2 de enero de 2023
+#  Simulation has been initialized
+# Warning: WAVEFORM: Object matching /DETECTOR/ENB not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_ENTRADA not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_SALIDA not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/ENB not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_ENTRADA not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_SALIDA not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/ENB not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_ENTRADA not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_SALIDA not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/ENB not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+endsim
+# VSIM: Simulation has finished.
+# Warning: WAVEFORM: Object matching /DETECTOR/ENB not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_ENTRADA not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_SALIDA not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/untitled.asdb.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+#  11:35 a. m., lunes, 2 de enero de 2023
+#  Simulation has been initialized
+# VSIM: 9 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  11:42 a. m., lunes, 2 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+run 100 ns
+# KERNEL: stopped at time: 1800 ns
+run 100 ns
+# KERNEL: stopped at time: 1900 ns
+run 100 ns
+# KERNEL: stopped at time: 2 us
+run 100 ns
+# KERNEL: stopped at time: 2100 ns
+run 100 ns
+# KERNEL: stopped at time: 2200 ns
+run 100 ns
+# KERNEL: stopped at time: 2300 ns
+run 100 ns
+# KERNEL: stopped at time: 2400 ns
+run 100 ns
+# KERNEL: stopped at time: 2500 ns
+run 100 ns
+# KERNEL: stopped at time: 2600 ns
+run 100 ns
+# KERNEL: stopped at time: 2700 ns
+run 100 ns
+# KERNEL: stopped at time: 2800 ns
+run 100 ns
+# KERNEL: stopped at time: 2900 ns
+run 100 ns
+# KERNEL: stopped at time: 3 us
+run 100 ns
+# KERNEL: stopped at time: 3100 ns
+run 100 ns
+# KERNEL: stopped at time: 3200 ns
+run 100 ns
+# KERNEL: stopped at time: 3300 ns
+run 100 ns
+# KERNEL: stopped at time: 3400 ns
+run 100 ns
+# KERNEL: stopped at time: 3500 ns
+run 100 ns
+# KERNEL: stopped at time: 3600 ns
+run 100 ns
+# KERNEL: stopped at time: 3700 ns
+run 100 ns
+# KERNEL: stopped at time: 3800 ns
+run 100 ns
+# KERNEL: stopped at time: 3900 ns
+run 100 ns
+# KERNEL: stopped at time: 4 us
+run 100 ns
+# KERNEL: stopped at time: 4100 ns
+run 100 ns
+# KERNEL: stopped at time: 4200 ns
+run 100 ns
+# KERNEL: stopped at time: 4300 ns
+run 100 ns
+# KERNEL: stopped at time: 4400 ns
+run 100 ns
+# KERNEL: stopped at time: 4500 ns
+run 100 ns
+# KERNEL: stopped at time: 4600 ns
+run 100 ns
+# KERNEL: stopped at time: 4700 ns
+run 100 ns
+# KERNEL: stopped at time: 4800 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6426 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  11:52 a. m., lunes, 2 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+run 100 ns
+# KERNEL: stopped at time: 1800 ns
+run 100 ns
+# KERNEL: stopped at time: 1900 ns
+run 100 ns
+# KERNEL: stopped at time: 2 us
+run 100 ns
+# KERNEL: stopped at time: 2100 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6426 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet4" has been made inactive.
+#  11:56 a. m., lunes, 2 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6426 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+#  12:34 p. m., lunes, 2 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+run 100 ns
+# KERNEL: stopped at time: 1800 ns
+run 100 ns
+# KERNEL: stopped at time: 1900 ns
+run 100 ns
+# KERNEL: stopped at time: 2 us
+run 100 ns
+# KERNEL: stopped at time: 2100 ns
+run 100 ns
+# KERNEL: stopped at time: 2200 ns
+run 100 ns
+# KERNEL: stopped at time: 2300 ns
+run 100 ns
+# KERNEL: stopped at time: 2400 ns
+run 100 ns
+# KERNEL: stopped at time: 2500 ns
+run 100 ns
+# KERNEL: stopped at time: 2600 ns
+run 100 ns
+# KERNEL: stopped at time: 2700 ns
+run 100 ns
+# KERNEL: stopped at time: 2800 ns
+run 100 ns
+# KERNEL: stopped at time: 2900 ns
+run 100 ns
+# KERNEL: stopped at time: 3 us
+# Waveform file 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/FF.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/FF.asdb'.
+# Adding file D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\FF.asdb ... Done
+# Adding file D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\FF.awc ... Done
