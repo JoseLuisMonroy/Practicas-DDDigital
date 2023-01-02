@@ -19,3 +19,17 @@ LANGUAGE=VHDL
 REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=Xilinx13x SPARTAN6
+[Files]
+/Detector.vhd=-1
+/DivisorFrec.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+[Files.Data]
+.\src\Detector.vhd=VHDL Source Code
+.\src\DivisorFrec.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

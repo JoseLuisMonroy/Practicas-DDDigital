@@ -1,1 +1,3 @@
-0
+2
+~E 1 "../src/Detector.vhd" 4 DETECTOR
+~A 1 "../src/Detector.vhd" 12 COMPORTAMENTAL
