@@ -1,24 +1,24 @@
-timestamp=1672684456604
+timestamp=1673216407304
 
 [~A]
-ModifyID=8
+ModifyID=30
 Version=74
 
 [~MFT]
-0=2|0DetectorSecuencia.mgf|12602|9634
-1=2|1DetectorSecuencia.mgf|7833|7833
+0=8|0DetectorSecuencia.mgf|46681|44158
+1=2|1DetectorSecuencia.mgf|40017|40017
 3=2|3DetectorSecuencia.mgf|0|0
 
 [detector]
-A/comportamental=A/COMPORTAMENTAL 21|../src/Detector.vhd|13|1*7833
+A/comportamental=A/COMPORTAMENTAL 21|../src/Detector.vhd|44|1*40017
 BinW64/comportamental=3*0
-I=0*3103
-I/comportamental=I/COMPORTAMENTAL 0*12602
-M=11|2|vef|1672680760817|../src/Detector.vhd|0*2712*0x7bcead4907d302605a0939ea7ec391230941d31b|0*3022*0x23b75c12e3e89f2ef000564498faa8c2
-M/comportamental=M/COMPORTAMENTAL 21|2|vef|1672684456592|../src/Detector.vhd|0*10435*0x00fb1f9c6f0738a3324cf6b6d18953eba0b84176|0*12503*0x20116f55b147878295aeff36dce7fc50
-R=../src/Detector.vhd|4
-Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|56b87750e1830fb41e7a40a1b064e8c8536c9008ac87b7c2cbb596311114c0c8ac3809ee164f6a1fc8ea1a3813627ae6
-Version/comportamental=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|37d0518bbecbdaa130e9dbaa0dbb739560b343c555df2987bb9a98df7bdea66cb5e4c37faef8da7fe80df5d0b9c62515
+I=0*32275
+I/comportamental=I/COMPORTAMENTAL 0*46681
+M=11|2|vef|1673215276820|../src/Detector.vhd|0*31792*0xd9f8e2c8a6b5b0adbd783db4aa57f7a672033992|0*32194*0x23b75c12e3e89f2ef000564498faa8c2
+M/comportamental=M/COMPORTAMENTAL 21|2|vef|1673216407291|../src/Detector.vhd|0*45077*0x4d6c8856a21d8c4c6c6c3dab0de8016c2c534965|0*46582*0x20116f55b147878295aeff36dce7fc50
+R=../src/Detector.vhd|32
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|56b87750e1830fb41e7a40a1b064e8c8536c9008ac87b7c2cbb596311114c0c8618b7d8a5ba3966862e2826b1e67d8e8
+Version/comportamental=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|37d0518bbecbdaa130e9dbaa0dbb739560b343c555df2987bb9a98df7bdea66c2057c92d26d573736cce776b7ed09979
 
 [~U]
-detector=DETECTOR 11|0*2504|
+detector=DETECTOR 11|0*31558|
