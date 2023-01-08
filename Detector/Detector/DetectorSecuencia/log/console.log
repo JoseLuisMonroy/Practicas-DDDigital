@@ -1,0 +1,1130 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/FF.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/FF.asdb'.
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0078: Detector.vhd : (88, 10): Unknown identifier "ENB".
+# Error: COMP96_0133: Detector.vhd : (88, 10): Cannot find object declaration.
+# Error: COMP96_0077: Detector.vhd : (88, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.3 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5860 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet5" has been made inactive.
+#  03:11 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+endsim
+# VSIM: Simulation has finished.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_CLK1 not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/FF.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AN not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/FF.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_CLK not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/FF.asdb.
+# Warning: WAVEFORM: Object matching /DETECTOR/CONTADOR not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/FF.asdb.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5860 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+#  03:13 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# VSIM: 11 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5860 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet6" has been made inactive.
+#  03:16 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5860 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet7" has been made inactive.
+#  03:18 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 sec
+restart
+endsim
+# KERNEL: stopped at time: 129903700 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5860 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet8" has been made inactive.
+#  03:21 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 99 ms
+endsim
+# KERNEL: stopped at time: 34718600 ps
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6427 kB (elbread=427 elab2=5860 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet9" has been made inactive.
+#  03:22 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 99 ms
+# KERNEL: stopped at time: 99 ms
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0019: Detector.vhd : (75, 1): Keyword 'begin' expected.
+# Error: COMP96_0016: Detector.vhd : (75, 9): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+#  03:24 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /DETECTOR/CONTADOR not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+#  03:24 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 99 ms
+restart
+# KERNEL: stopped at time: 99 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet10" has been made inactive.
+#  03:30 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+#  03:31 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /DETECTOR/AUX_CLK1 not found in D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet11" has been made inactive.
+#  03:35 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet12" has been made inactive.
+#  03:43 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+# VSIM: Error: Cannot force signal "/DETECTOR/AUX_ENTRADA" with formula "".
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5857 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet13" has been made inactive.
+#  03:47 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0019: Detector.vhd : (76, 1): Keyword 'end' expected.
+# Error: COMP96_0016: Detector.vhd : (76, 2): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0019: Detector.vhd : (75, 1): Keyword 'end' expected.
+# Error: COMP96_0016: Detector.vhd : (75, 2): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0019: Detector.vhd : (75, 1): Keyword 'end' expected.
+# Error: COMP96_0016: Detector.vhd : (75, 2): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet14" has been made inactive.
+#  03:52 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+#  03:53 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+#  03:53 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0019: Detector.vhd : (90, 5): Keyword 'then' expected.
+# Error: COMP96_0019: Detector.vhd : (91, 3): Keyword 'end' expected.
+# Error: COMP96_0015: Detector.vhd : (95, 7): ';' expected.
+# Error: COMP96_0016: Detector.vhd : (95, 9): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ULM: Warning: ULM_0021 Architecture "comportamental" of entity "detectorsecuencia.detector" is not up-to-date. Please recompile file "D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia/src/Detector.vhd".
+# ELBREAD: Elaboration process.
+# ULM: Warning: ULM_0021 Architecture "comportamental" of entity "detectorsecuencia.detector" is not up-to-date. Please recompile file "D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia/src/Detector.vhd".
+# ELBREAD: Error: Architecture 'comportamental' of entity 'DETECTOR' not found in library 'detectorsecuencia'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ULM: Warning: ULM_0021 Architecture "comportamental" of entity "detectorsecuencia.detector" is not up-to-date. Please recompile file "D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia/src/Detector.vhd".
+# 
+# VSIM: Error: Cannot initialize simulation - no top level  entity/architecture or configuration is selected
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0019: Detector.vhd : (90, 5): Keyword 'then' expected.
+# Error: COMP96_0019: Detector.vhd : (91, 3): Keyword 'end' expected.
+# Error: COMP96_0015: Detector.vhd : (95, 7): ';' expected.
+# Error: COMP96_0016: Detector.vhd : (95, 9): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet15" has been made inactive.
+#  03:59 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/DETECTOR/AUX_CLK" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/DETECTOR/CLR" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/DETECTOR/ENB" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/DETECTOR/AUX_ENTRADA" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/DETECTOR/SALIDA" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/DETECTOR/EDO" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/DETECTOR/NEXT_EDO" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/DETECTOR/AN" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/DETECTOR/CLK" has already been traced.
+# VSIM: 1 object(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0143: Detector.vhd : (88, 4): Object "AUX_ENTRADA" cannot be written.
+# Error: COMP96_0143: Detector.vhd : (90, 5): Object "AUX_ENTRADA" cannot be written.
+# Error: COMP96_0143: Detector.vhd : (92, 5): Object "AUX_ENTRADA" cannot be written.
+# Error: COMP96_0143: Detector.vhd : (93, 5): Object "AUX_ENTRADA" cannot be written.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ULM: Warning: ULM_0021 Architecture "comportamental" of entity "detectorsecuencia.detector" is not up-to-date. Please recompile file "D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia/src/Detector.vhd".
+# ELBREAD: Elaboration process.
+# ULM: Warning: ULM_0021 Architecture "comportamental" of entity "detectorsecuencia.detector" is not up-to-date. Please recompile file "D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia/src/Detector.vhd".
+# ELBREAD: Error: Architecture 'comportamental' of entity 'DETECTOR' not found in library 'detectorsecuencia'.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ULM: Warning: ULM_0021 Architecture "comportamental" of entity "detectorsecuencia.detector" is not up-to-date. Please recompile file "D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia/src/Detector.vhd".
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Error: COMP96_0143: Detector.vhd : (88, 4): Object "AUX_ENTRADA" cannot be written.
+# Error: COMP96_0143: Detector.vhd : (90, 5): Object "AUX_ENTRADA" cannot be written.
+# Error: COMP96_0143: Detector.vhd : (92, 5): Object "AUX_ENTRADA" cannot be written.
+# Error: COMP96_0143: Detector.vhd : (93, 5): Object "AUX_ENTRADA" cannot be written.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet16" has been made inactive.
+#  04:01 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5398 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet17" has been made inactive.
+#  04:03 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet18" has been made inactive.
+#  04:07 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet19" has been made inactive.
+#  04:09 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet20" has been made inactive.
+#  04:10 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet21" has been made inactive.
+#  04:11 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet22" has been made inactive.
+#  04:14 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work DetectorSecuencia -2002  $dsn/src/Detector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/Detector.vhd
+# Compile Entity "DETECTOR"
+# Compile Architecture "COMPORTAMENTAL" of Entity "DETECTOR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+DETECTOR DETECTOR COMPORTAMENTAL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6424 kB (elbread=427 elab2=5858 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location D:\mnry7\Documents\Practicas-DDDigital\Detector\Detector\DetectorSecuencia\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet23" has been made inactive.
+#  04:20 p. m., domingo, 8 de enero de 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/mnry7/Documents/Practicas-DDDigital/Detector/Detector/DetectorSecuencia/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
