@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/mnry7/Documents/Practicas-DDDigital/DisplayMultiplexado/DisplayMulti/src/DispMulti.vhd" 
+MESSAGE "Compile Entity "DISPMULT"" 
+MESSAGE "Compile Architecture "COMPORTAMENTAL" of Entity "DISPMULT"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

@@ -1,1 +1,24 @@
+timestamp=1673297105289
 
+[~A]
+ModifyID=6
+Version=74
+
+[~MFT]
+0=8|0DisplayMulti.mgf|5928|4363
+1=2|1DisplayMulti.mgf|5622|5622
+3=2|3DisplayMulti.mgf|0|0
+
+[dispmult]
+A/comportamental=A/COMPORTAMENTAL 21|../src/DispMulti.vhd|15|1*5622
+BinW64/comportamental=3*0
+I=0*3658
+I/comportamental=I/COMPORTAMENTAL 0*5928
+M=11|2|vef|1673296721697|../src/DispMulti.vhd|0*3285*0xd9410a6201bfbae564d28379e60e319e5eee4989|0*3576*0x23b75c12e3e89f2ef000564498faa8c2
+M/comportamental=M/COMPORTAMENTAL 21|2|vef|1673297105275|../src/DispMulti.vhd|0*5152*0x6576bcaae3015469c5d7b71dacd3965bc89f7ea7|0*5828*0x20116f55b147878295aeff36dce7fc50
+R=../src/DispMulti.vhd|4
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|88d2adac9b359c56168c088321cf9cf2eccbeb2ddb0c4b8350e4c8f05f2c053b387657eb11f136230b73d042630d51cf
+Version/comportamental=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|37d0518bbecbdaa130e9dbaa0dbb739560b343c555df2987bb9a98df7bdea66c25605b99daa615ac027b975d29246564
+
+[~U]
+dispmult=DISPMULT 11|0*3071|

@@ -1,1 +1,3 @@
-0
+6
+~E 1 "../src/DispMulti.vhd" 4 DISPMULT
+~A 1 "../src/DispMulti.vhd" 15 COMPORTAMENTAL

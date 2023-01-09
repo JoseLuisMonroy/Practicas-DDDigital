@@ -23,3 +23,7 @@ FAMILY=Xilinx13x SPARTAN6
 /DispMulti.vhd=-1
 [Files.Data]
 .\src\DispMulti.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=dispmult|COMPORTAMENTAL|0
+ShowHide=ShowTopLevel
+Selected=
