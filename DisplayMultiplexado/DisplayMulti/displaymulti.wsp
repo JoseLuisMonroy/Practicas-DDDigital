@@ -1,0 +1,8 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+SPARTAN6=0
+DisplayMulti=0
+[COMPILESTATUS|.\src\DispMulti.vhd]
+FileTimeLow=2569000689
+FileTimeHigh=31007844
+Status=Modified
