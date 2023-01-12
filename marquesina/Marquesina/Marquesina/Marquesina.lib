@@ -1,0 +1,24 @@
+timestamp=1673385938304
+
+[~A]
+ModifyID=4
+Version=74
+
+[~MFT]
+0=10|0Marquesina.mgf|3638|2173
+1=2|1Marquesina.mgf|1298|1298
+3=2|3Marquesina.mgf|0|0
+
+[dispmult]
+A/comportamental=A/COMPORTAMENTAL 21|../src/Marquesina.vhd|16|1*1298
+BinW64/comportamental=3*0
+I=0*3355
+I/comportamental=I/COMPORTAMENTAL 0*3638
+M=11|2|vef|1673385938287|../src/Marquesina.vhd|0*2921*0x6beedec0990ff6fb1baf6887f5e4201deaac9155|0*3272*0x23b75c12e3e89f2ef000564498faa8c2
+M/comportamental=M/COMPORTAMENTAL 21|2|vef|1673385938292|../src/Marquesina.vhd|0*2173*0x45e59da90dde34ee14faf4b7ec0ff12f6a9bb976|0*2602*0x20116f55b147878295aeff36dce7fc50
+R=../src/Marquesina.vhd|5
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|88d2adac9b359c56168c088321cf9cf2eccbeb2ddb0c4b8350e4c8f05f2c053bd3bc3fd8c3e1d7c54daa078029b7e9f4
+Version/comportamental=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|37d0518bbecbdaa130e9dbaa0dbb739560b343c555df2987bb9a98df7bdea66cea5c1e5be191953ac3e5b2e6668d8a15
+
+[~U]
+dispmult=DISPMULT 11|0*2703|
